@@ -53,6 +53,9 @@ html {
   margin: 0 auto;
 }
 
+.faixa {
+  margin-block: 75px;
+}
 .faixa img {
   max-width: 100%;
 }
@@ -229,6 +232,25 @@ body {
   text-align: center;
 }
 
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
 .heading_container {
   display: flex;
   flex-direction: column;
@@ -288,7 +310,7 @@ a:focus {
 }
 
 .headerLogo {
-  max-height: 100px !important;
+  max-height: 50px !important;
 }
 
 .navbar-brand span {
@@ -301,7 +323,7 @@ a:focus {
   padding: 0;
 }
 .custom_nav-container .navbar-nav {
-  margin: auto;
+  margin-left: 40%;
 }
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 25px;

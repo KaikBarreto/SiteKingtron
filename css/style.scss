@@ -63,6 +63,8 @@ html {
 }
 
 .faixa {
+  margin-block: 75px;
+
   img {
     max-width: 100%;
   }
@@ -280,6 +282,29 @@ body {
   }
 }
 
+// whatsapp button
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff !important;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+// whatsapp button
+
 .heading_container {
   display: flex;
   flex-direction: column;
@@ -345,7 +370,7 @@ a:focus {
 }
 
 .headerLogo {
-  max-height: 100px !important;
+  max-height: 50px !important;
 }
 
 .navbar-brand {
@@ -360,7 +385,7 @@ a:focus {
   padding: 0;
 
   .navbar-nav {
-    margin: auto;
+    margin-left: 40%;
 
     .nav-item {
       .nav-link {
@@ -761,7 +786,6 @@ body {
     fill: #e5e1e6;
     background-color: #0047ba;
     padding: 5px;
-
   }
 }
 
