@@ -1,7 +1,7 @@
 $white: #e5e1e6;
 $black: #000000;
-$primary1: #0047ba;
-$primary2: #011e41;
+$primary1: #1b3173;
+$primary2: #a1060b;
 $textCol: #1f1f1f;
 
 @font-face {
@@ -18,17 +18,17 @@ body {
 /* Estilização da barra de rolagem */
 ::-webkit-scrollbar {
   width: 10px; /* Largura da barra de rolagem */
-  background-color: #011e41; /* Cor de fundo da barra de rolagem */
+  background-color: $primary2; /* Cor de fundo da barra de rolagem */
 }
 
 /* Estilização do indicador de rolagem (a própria barra de rolagem) */
 ::-webkit-scrollbar-thumb {
-  background-color: #0047ba; /* Cor da barra de rolagem */
+  background-color: $primary1; /* Cor da barra de rolagem */
 }
 
 /* Estilização do indicador de rolagem quando passar o mouse sobre ele */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #00359f; /* Cor da barra de rolagem ao passar o mouse */
+  background-color: lighten($color: $primary1, $amount: 25); /* Cor da barra de rolagem ao passar o mouse */
 }
 
 /* Habilitar a rolagem suave */
